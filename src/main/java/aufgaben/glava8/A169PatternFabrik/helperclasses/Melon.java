@@ -8,7 +8,7 @@ public class Melon implements Fruit {
     private final int weight;
     private final String color;
 
-    public Melon(String type, int weight, String color, String str) {
+    public Melon(String type, int weight, String color) {
         this.type = type;
         this.weight = weight;
         this.color = color;

@@ -28,7 +28,7 @@ public class MeloneFactory {
         return supplier.get();
     }
 
-    public static Fruit newInstaceMelone(String name, int weight, String color) {
+    public static Fruit newInstaceMelone(String name, Integer weight, String color) {
         return melon.apply(name,weight,color);
     }
 }
